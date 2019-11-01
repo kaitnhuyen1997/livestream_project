@@ -1,0 +1,11 @@
+npm init
+
+install feathers express socketio moment
+npm install @feathersjs/feathers @feathersjs/express @feathersjs/socketio moment
+
+const feathers = require("@feathersjs/feathers");
+const express = require("@feathersjs/express");
+const socketio = require("@feathersjs/socketio");
+const moment = require("moment");
+
+const app = express(feathers());
